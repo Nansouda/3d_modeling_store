@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Island 3D Model</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌴 Island 3D Model</h1>
+    <img src="assets/model-preview.jpeg" alt="Island Preview" class="preview"/>
+    <p>ราคา: <strong>5 USDT</strong> (BNB Chain)</p>
+    <button id="connectWallet">🔗 เชื่อมต่อ Wallet</button>
+    <button id="payAndDownload" disabled>💰 ชำระเงินและดาวน์โหลด</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
